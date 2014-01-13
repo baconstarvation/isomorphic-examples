@@ -2,7 +2,11 @@
   "name": "browserify-example",
   "version": "0.0.0",
   "dependencies": {
-    "underscore": "~1.5"
+    "underscore": "~1.5",
+    "superagent": "~0.16.0"
+  },
+  "browser": {
+    "./lib/sillystring.js": "./lib/sillystring-browser.js"
   },
   "private": true
 }

@@ -9,6 +9,7 @@ module.exports = function (grunt) {
           debug: true,
         },
         files: {
+		  // output: bundle.js; input: index.js
           'bundle.js': 'index.js',
         },
       },
